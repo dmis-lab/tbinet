@@ -23,3 +23,5 @@ The ChIP-seq data used in this work can be downloaded from <http://deepsea.princ
 
 ### Testing CLARINET
 `test.ipynb`
+
+## Citation
