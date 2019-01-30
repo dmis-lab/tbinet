@@ -1,11 +1,9 @@
-# CLARINET
+# Keras implementation of CLARINET.
+CLARINET is an attention based neural network that predicts transcription factor-DNA binding from a given DNA sequence.
 
 ![model image](CLARINET_fig.PNG)
 
-Keras implementation of CLARINET.
-
-CLARINET is an attention based deep learning model that predicts whether a TF binds to a given DNA sequence in a ChIP-seq experiment.  
-  
+  Overview of CLARINET
 
 ## Requirements
 - numpy (1.14.6)
@@ -24,4 +22,3 @@ The ChIP-seq data used in this work can be downloaded from <http://deepsea.princ
 
 ### Evaluation
 `CLARINET-test.ipynb`
-
