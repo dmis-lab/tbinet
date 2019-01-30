@@ -1,10 +1,6 @@
 # Keras implementation of CLARINET
 CLARINET is an attention based neural network that predicts transcription factor-DNA binding from a given DNA sequence.
 
-CLARINET is built upon keras implementation of DanQ*.
-
-*Daniel Quang, Xiaohui Xie; DanQ: a hybrid convolutional and recurrent deep neural network for quantifying the function of DNA sequences, Nucleic Acids Research, Volume 44, Issue 11, 20 June 2016, Pages e107
-
 ![model image](overview.PNG)
 
   Overview of CLARINET
