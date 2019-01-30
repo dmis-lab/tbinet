@@ -1,4 +1,4 @@
-# CLARINET: An attention based neural network forpredicting transcription factor-DNA binding
+# Keras implementation of CLARINET
 CLARINET is an attention based neural network that predicts transcription factor-DNA binding from a given DNA sequence.
 
 ![model image](CLARINET_fig.PNG)
