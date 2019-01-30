@@ -2,35 +2,26 @@
 
 ![model image](CLARINET_fig.PNG)
 
-This code is implementation of our paper [CLARINET].  
-CLARINET is an attention based deep learning model that predicts whether a TF binds to a given DNA sequence.  
-CLARINET takes DNA sequence as one-hot vector and predicts 690 TF binding tasks.  
-The above picture is an overview of our model.  
+Keras implementation of CLARINET.
 
+CLARINET is an attention based deep learning model that predicts whether a TF binds to a given DNA sequence in a ChIP-seq experiment.  
+  
 
 ## Requirements
-- pytorch
-- keras
+- numpy (1.14.6)
+- h5py (2.8.0)
+- scipy (1.1.0)
+- sklearn (0.20.1)
+- theano (1.0.3)
+- keras (2.2.4, backend:theano)
 
 ## Usage
-### Training model
-0. Download data (<http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz>)  
-    - Data includes `train.mat`, `valid.mat`, and `test.mat`
-    - Place that data at the `./data` folder
-1. Train model and save trained model to ./model folder  
-    - `python clarinet.py train ./data ./model/[model_name]`
-2. Evaluate trained model
-    - `python clarinet.py eval ./data ./model/[model_name]`
-### Attention analysis
-`python attn/analysis.py [] []`
-### SNP prioritization
-`python snp/analysis.py [] []`
-## Result
-### Model prediction result
-ROC AUC scatter plot
+### Data
+The ChIP-seq data used in this work can be downloaded from <http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz>.
 
-### Attention analysis result
-Heatmap plot
+### Train CLARINET
+`CLARINET.ipynb`
 
-### SNP prioritization result
-ROC AUC plot
+### Evaluation
+`CLARINET-test.ipynb`
+
