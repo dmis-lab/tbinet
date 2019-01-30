@@ -6,13 +6,13 @@ CLARINET is an attention based neural network that predicts transcription factor
   Overview of CLARINET
 
 ## Requirements
-- python (3.6.6)
-- numpy (1.14.6)
-- h5py (2.8.0)
-- scipy (1.1.0)
-- sklearn (0.20.1)
-- theano (1.0.3)
-- keras (2.2.4, backend:theano)
+- python (version 3.6.6)
+- numpy (version 1.14.6)
+- h5py (version 2.8.0)
+- scipy (version 1.1.0)
+- sklearn (version 0.20.1)
+- theano (version 1.0.3)
+- keras (version 2.2.4, backend:theano)
 
 ## Usage
 ### Data
