@@ -17,8 +17,8 @@ CLARINET is an attention based neural network that predicts transcription factor
 ### Data
 The ChIP-seq data used in this work can be downloaded from <http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz>.
 
-### Train CLARINET
+### Training CLARINET
 `CLARINET.ipynb`
 
-### Evaluation
+### Testing CLARINET
 `CLARINET-test.ipynb`
