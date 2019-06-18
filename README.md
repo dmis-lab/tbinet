@@ -2,7 +2,7 @@
 CABiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
 
 - Overview of CABiNet
-![model image](overview.PNG)
+![model image](cabinet_overview.PNG)
 
 ## Requirements
 - Python (version 3.6.6, recommend installing Anaconda3)
