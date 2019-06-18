@@ -1,7 +1,7 @@
-# CLARINET: An attention based neural network for predicting transcription factor-DNA binding
-CLARINET is an attention based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
+# CABiNet: A deep neural network for predicting transcription factor binding sites using attention mechanism
+CABiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
 
-- Overview of CLARINET
+- Overview of CABiNet
 ![model image](overview.PNG)
 
 ## Requirements
@@ -17,9 +17,9 @@ CLARINET is an attention based neural network that predicts transcription factor
 ### Data
 The ChIP-seq data used in this work can be downloaded from <http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz>.
 
-### Training CLARINET
+### Training CABiNet
 `train.ipynb`
 
-### Testing CLARINET
+### Testing CABiNet
 `test.ipynb`
 
