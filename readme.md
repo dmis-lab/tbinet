@@ -1,8 +1,8 @@
-# CABiNet: A deep neural network for predicting transcription factor binding sites using attention mechanism
-CABiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
+# TBiNet: A deep neural network for predicting transcription factor binding sites using attention mechanism
+TBiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
 
-- Overview of CABiNet
-![model image](cabinet_overview.PNG)
+- Overview of TBiNet
+![model image](TBiNet_overview.PNG)
 
 ## Requirements
 - Python (version 3.6.6, recommend installing Anaconda3)
@@ -17,9 +17,9 @@ CABiNet is an attention-based neural network that predicts transcription factor-
 ### Data
 The ChIP-seq data used in this work can be downloaded from <http://deepsea.princeton.edu/media/code/deepsea_train_bundle.v0.9.tar.gz>.
 
-### Training CABiNet
+### Training TBiNet
 `train.ipynb`
 
-### Testing CABiNet
+### Testing TBiNet
 `test.ipynb`
 
