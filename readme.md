@@ -2,7 +2,7 @@
 TBiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
 
 - Overview of TBiNet
-![model image](TBiNet_overview.PNG)
+![model image](TBiNet_overview.png)
 
 ## Requirements
 - Python (version 3.6.6, recommend installing Anaconda3)
