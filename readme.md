@@ -23,5 +23,5 @@ The ChIP-seq data used in this work can be downloaded from <http://deepsea.princ
 ### Testing TBiNet
 `test.ipynb`
 
-## Contact
+## Contact information
 For help or issues using TBiNet, please submit a GitHub issue. Please contact Sungjoon Park (sungjoonopark@korea.ac.kr) for communication related to TBiNet.
