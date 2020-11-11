@@ -1,7 +1,7 @@
 # TBiNet: A deep neural network for predicting transcription factor binding sites using attention mechanism
 TBiNet is an attention-based neural network that predicts transcription factor-DNA binding in a given DNA sequence.
 
-Paper link: https://www.nature.com/articles/s41598-020-70218-4
+Paper information: "Enhancing the interpretability of transcription factor binding site prediction using attention mechanism." Scientific reports (Aug 2020).
 
 - Overview of TBiNet
 ![model image](TBiNet_overview.png)
